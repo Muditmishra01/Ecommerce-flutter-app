@@ -1,0 +1,68 @@
+name: ecommerce
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+    #utility package
+  http: ^1.1.0
+  intl: ^0.18.1
+  logger: ^2.0.1
+  url_launcher: ^6.1.12
+  flutter_native_splash: ^2.4.0
+  smooth_page_indicator: ^1.1.0
+  # Icons
+  iconsax:  ^0.0.8
+  cupertino_icons: ^1.0.6
+
+  # state management
+  get: ^4.6.5
+  get_storage: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/logo/
+    - assets/icon/brands/
+    - assets/image/on_boarding_images/
+    - assets/image/animations/
+
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/font/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/font/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/font/Poppins-Medium.ttf
+          weight: 400
+        - asset: assets/font/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/font/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/font/Poppins-Bold.ttf
+          weight: 800
+
+
